@@ -11,7 +11,7 @@ data "azurerm_key_vault" "key_vault" {
 }
 
 provider "azurerm" {
-    version = "1.44.0"
+  features {}
 }
 
 data "azurerm_subnet" "core_infra_redis_subnet" {
